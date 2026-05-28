@@ -7,7 +7,6 @@ on:
     paths:
       - '!**'
       - 'docs/**'
-      - '.github/workflows/build-and-preview-docs.yml'
       - 'mesheryctl/doc/**'
 
 permissions:
@@ -116,6 +115,9 @@ jobs:
         with:
           ref: gh-pages
           fetch-depth: 0
+          filter: blob:none
+          sparse-checkout: |
+            pr-preview
           path: gh-pages-maintenance
 
       - name: Prune old PR previews
