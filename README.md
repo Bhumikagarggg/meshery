@@ -171,7 +171,7 @@ Meshery's "multi-player" functionality refers to its collaborative features that
 
 ## Performance Management
 
-Meshery offers load generation and performance characterization to help you assess and optimize the performance of your applications and infrastructure.
+Meshery offers load generation  and performance characterization to help you assess and optimize the performance of your applications and infrastructure.
 
 <img src=".github/assets/images/readme/performance-metrics.gif" alt="Meshery performance metrics dashboard showing load generation results" width="50%" loading="lazy" />
 
